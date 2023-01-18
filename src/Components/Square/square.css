@@ -1,0 +1,14 @@
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1.5px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  color: black;
+}
+
+.square:active {
+  background-color: rgb(54, 107, 107);
+}

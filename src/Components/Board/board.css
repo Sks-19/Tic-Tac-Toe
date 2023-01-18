@@ -1,0 +1,27 @@
+.board {
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(49, 90, 90);
+  border: 1.5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 550px) {
+  .board {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(49, 90, 90);
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+}
